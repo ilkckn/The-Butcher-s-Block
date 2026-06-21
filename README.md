@@ -24,13 +24,13 @@ The current build is centered around:
 
 > Images are served from `public/landing/`.
 
-![Hero](./public/landing/hero.png)
-![Heritage](./public/landing/heritage.png)
-![Weekly Deals](./public/landing/discount-steak.jpg)
-![Chef's Touch](./public/landing/chefs-touch-1.png)
-![Category Steak](./public/landing/category-steak.jpg)
-![Category Salami](./public/landing/category-salami.jpg)
-![Category Sauce](./public/landing/category-sauce.jpg)
+<img src="./public/landing/hero.png" alt="Hero" width="49%" />
+<img src="./public/landing/heritage.png" alt="Heritage" width="49%" />
+<img src="./public/landing/discount-steak.jpg" alt="Weekly Deals" width="49%" />
+<img src="./public/landing/chefs-touch-1.png" alt="Chef's Touch" width="49%" />
+<img src="./public/landing/category-steak.jpg" alt="Category Steak" width="49%" />
+<img src="./public/landing/category-salami.jpg" alt="Category Salami" width="49%" />
+<img src="./public/landing/category-sauce.jpg" alt="Category Sauce" width="49%" />
 
 ### Features
 
@@ -164,13 +164,13 @@ Der aktuelle Stand konzentriert sich auf:
 
 > Die Bilder werden aus `public/landing/` geladen.
 
-![Hero](./public/landing/hero.png)
-![Heritage](./public/landing/heritage.png)
-![Weekly Deals](./public/landing/discount-steak.jpg)
-![Chef's Touch](./public/landing/chefs-touch-1.png)
-![Category Steak](./public/landing/category-steak.jpg)
-![Category Salami](./public/landing/category-salami.jpg)
-![Category Sauce](./public/landing/category-sauce.jpg)
+<img src="./public/landing/hero.png" alt="Hero" width="49%" />
+<img src="./public/landing/heritage.png" alt="Heritage" width="49%" />
+<img src="./public/landing/discount-steak.jpg" alt="Weekly Deals" width="49%" />
+<img src="./public/landing/chefs-touch-1.png" alt="Chef's Touch" width="49%" />
+<img src="./public/landing/category-steak.jpg" alt="Category Steak" width="49%" />
+<img src="./public/landing/category-salami.jpg" alt="Category Salami" width="49%" />
+<img src="./public/landing/category-sauce.jpg" alt="Category Sauce" width="49%" />
 
 ### Funktionen
 
