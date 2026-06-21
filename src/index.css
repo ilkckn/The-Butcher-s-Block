@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-headline: "Bitter", serif;
+  --font-body: "Source Sans 3", sans-serif;
+
+  --fw-headline-thin: 100;
+  --fw-headline-extra-light: 200;
+  --fw-headline-light: 300;
+  --fw-headline-regular: 400;
+  --fw-headline-medium: 500;
+  --fw-headline-semibold: 600;
+  --fw-headline-bold: 700;
+  --fw-headline-extra-bold: 800;
+  --fw-headline-black: 900;
+
+  --fw-body-extra-light: 200;
+  --fw-body-light: 300;
+  --fw-body-regular: 400;
+  --fw-body-medium: 500;
+  --fw-body-semibold: 600;
+  --fw-body-bold: 700;
+  --fw-body-extra-bold: 800;
+  --fw-body-black: 900;
+
+  --mobile-navbar-bg: #0c0b0b;
+  --mobile-navbar-links-color: var(--gold-t50);
+  --mobile-navbar-logo-color: var(--gold-t50);
+  --mobile-navbar-close-color: var(--gold-t50);
+
+  /*------Gold Color------*/
+  --gold-t0: #000000;
+  --gold-t10: #251d0f;
+  --gold-t20: #3c3020;
+  --gold-t30: #55432e;
+  --gold-t40: #6d573b;
+  --gold-t50: #a28755;
+  --gold-t60: #b39b70;
+  --gold-t70: #c5b18a;
+  --gold-t80: #d7c8a6;
+  --gold-t90: #e8dec7;
+  --gold-t95: #f4efe3;
+  --gold-t100: #ffffff;
+
+  /*------Primary Color------*/
+  --primary-t0: #000000;
+  --primary-t10: #410003;
+  --primary-t20: #62100f;
+  --primary-t30: #812723;
+  --primary-t40: #a03e38;
+  --primary-t50: #c0564e;
+  --primary-t60: #e16e65;
+  --primary-t70: #ff897f;
+  --primary-t80: #ffb4ac;
+  --primary-t90: #ffdad6;
+  --primary-t95: #ffedea;
+  --primary-t100: #ffffff;
+
+  /*------Secondary Color------*/
+  --secondary-t0: #000000;
+  --secondary-t10: #151f01;
+  --secondary-t20: #2a3410;
+  --secondary-t30: #404b25;
+  --secondary-t40: #57633a;
+  --secondary-t50: #707c51;
+  --secondary-t60: #899668;
+  --secondary-t70: #a4b181;
+  --secondary-t80: #bfcc9a;
+  --secondary-t90: #dbe8b5;
+  --secondary-t95: #e9f7c2;
+  --secondary-t96: #f3f2e2;
+  --secondary-t100: #ffffff;
+
+  /*------Tertiary Color------*/
+  --tertiary-t0: #000000;
+  --tertiary-t10: #241a00;
+  --tertiary-t20: #3d2e00;
+  --tertiary-t30: #584400;
+  --tertiary-t40: #755b00;
+  --tertiary-t50: #927300;
+  --tertiary-t60: #b18c09;
+  --tertiary-t70: #cea72c;
+  --tertiary-t80: #ecc246;
+  --tertiary-t90: #ffe08e;
+  --tertiary-t95: #ffefce;
+  --tertiary-t100: #ffffff;
+
+  /*------Neutral Color------*/
+  --neutral-t0: #000000;
+  --neutral-t10: #211a17;
+  --neutral-t20: #372f2b;
+  --neutral-t30: #4e4541;
+  --neutral-t40: #675c58;
+  --neutral-t50: #807571;
+  --neutral-t60: #9b8e8a;
+  --neutral-t70: #b6a8a4;
+  --neutral-t80: #d2c4bf;
+  --neutral-t90: #eedfda;
+  --neutral-t95: #fdeee8;
+  --neutral-t100: #ffffff;
+
+  /*------Cream Color------*/
+  --cream-t0: #000000;
+  --cream-t10: #1e1a13;
+  --cream-t20: #342e22;
+  --cream-t30: #4b4332;
+  --cream-t40: #645a45;
+  --cream-t50: #80755b;
+  --cream-t60: #9d9176;
+  --cream-t70: #bbae94;
+  --cream-t80: #d8cdb6;
+  --cream-t90: #f0e8d7;
+  --cream-t95: #faf6ef; /* base ★ */
+  --cream-t100: #ffffff;
+
+  /*------Gray Color------*/
+  --gray-t0: #000000;
+  --gray-t10: #1a1a1a;
+  --gray-t20: #2f2f2f;
+  --gray-t30: #454545;
+  --gray-t40: #5e5e5e;
+  --gray-t50: #767676;
+  --gray-t60: #909090;
+  --gray-t70: #ababab;
+  --gray-t80: #c7c7c7;
+  --gray-t90: #e2e2e2;
+  --gray-t95: #f3f3f3;
+  --gray-t100: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--cream-t95);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding-top: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headline);
+}
+
+p {
+  font-family: var(--font-body);
+}
+
+span {
+  font-family: var(--font-body);
+}
+
+a {
+  font-family: var(--font-body);
+}
+
+button {
+  font-family: var(--font-body);
+}
